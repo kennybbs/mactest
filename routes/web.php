@@ -20,9 +20,9 @@ Route::get('/', function () {
     return view('frontend.index');
 });
 
-Route::get('home', function () {
-    return view('frontend.index');
-})->name('home');
+// Route::get('home', function () {
+//     return view('frontend.index');
+// })->name('home');
 
 Route::get('about', function () {
     return view('frontend.about');
