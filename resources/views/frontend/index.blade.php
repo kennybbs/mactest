@@ -2,7 +2,7 @@
 
 @extends('frontend.layouts.master')
 @section('title','Home')
-
+@section('nav_home','active');
 @section('content')
 <!--Content...-->
   <section class="page-section clearfix">

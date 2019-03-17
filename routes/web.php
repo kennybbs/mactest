@@ -18,7 +18,7 @@
 
 Route::get('/', function () {
     return view('frontend.index');
-});
+})->name('home');
 
 // Route::get('home', function () {
 //     return view('frontend.index');

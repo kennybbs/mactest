@@ -1,6 +1,6 @@
 <@extends('frontend.layouts.master')
 @section('title','About')
-
+@section('nav_products','active');
 @section('content')
 <!--Content...-->
 
